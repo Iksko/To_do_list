@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", system-ui;
+}
+:root{
+    --bgBlue: #2C3E50;
+    --mainBlue: #34495E;
+    --btnBlue: #3498DB;
+    --boneWhite: #ECF0F1;
+    --placeholderBlue: #4E78A2;
+    --red: #FF2121;
+    --green: #28FF21;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --bronz: #CD7F32;
+}
+body{
+    min-height: 100vh;
+    background: var(--bgBlue);
+}
+#result{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 40px;
+}
+#bg_layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
